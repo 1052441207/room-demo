@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/iv_3d_entry"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="fitCenter"
+    android:layout_marginLeft="11dp"
+    android:layout_marginRight="11dp"
+    android:background="@mipmap/bg_subject_3_3d_entry"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#ffffff"
+        />
+
+
+    <ImageView
+        android:id="@+id/iv_3d_exercise_gif"
+        android:layout_width="158dp"
+        android:layout_height="92dp"
+        android:padding="2dp"
+        android:background="@color/colorPrimary"
+        />
+
+    <View
+        android:layout_width="162dp"
+        android:layout_height="96dp"
+        android:background="@drawable/bg_u3d_exercise_stroke"
+        />
+
+</FrameLayout>
